@@ -114,7 +114,12 @@ const MNP_PROJECTS = [
     location: "Jombang, Jawa Timur",
     client: "PT. Brantas Abipraya",
     scopeOfWorks: "Pekerjaan Railing dan Balkon Stainless Steel",
-    images: []
+    images: [
+      "images/portfolio/jombang/jombang4.png",
+      "images/portfolio/jombang/jombang1.png",
+      "images/portfolio/jombang/jombang3.png",
+      "images/portfolio/jombang/jombang5.png",
+    ]
   },
   {
     id: "unibraw_faperta_malang",
@@ -138,6 +143,21 @@ const MNP_PROJECTS = [
       "images/portfolio/madura/restareamadura3.png",
       "images/portfolio/madura/restareamadura1.png",
       "images/portfolio/madura/restareamadura5.png"
+    ]
+  },
+  {
+    id: "cawang_parkiran_motor",
+    title: "Parkiran Motor untuk Kantor Nindya Karya",
+    year: "2019",
+    category: "industrial",
+    location: "Cawang, Jakarta Timur",
+    client: "PT. Nindya Karya",
+    scopeOfWorks: "Pekerjaan Struktur Parkiran Motor",
+    images: [
+      "images/portfolio/cawang/cawang1.png",
+      "images/portfolio/cawang/cawang2.png",
+      "images/portfolio/cawang/cawang3.png",
+      "images/portfolio/cawang/cawang4.png"
     ]
   },
   {
@@ -223,6 +243,22 @@ const MNP_PROJECTS = [
     ]
   },
   {
+    id: "bandara_lombok",
+    title: "Proyek Bandar Udara Internasional Lombok",
+    year: "2020",
+    category: "commercial",
+    location: "Praya, Lombok Tengah",
+    client: "PT. Nindya Karya",
+    scopeOfWorks: "Pekerjaan Atap Baja",
+    images: [
+      "images/portfolio/lombok/bandaralombok2.png",
+      "images/portfolio/lombok/bandaralombok3.png",
+      "images/portfolio/lombok/bandaralombok4.png",
+      "images/portfolio/lombok/bandaralombok5.png",
+      "images/portfolio/lombok/bandaralombok6.png",
+    ]
+  },
+  {
     id: "polowijo_gosari_gresik",
     title: "Proyek Polowijo Gosari",
     year: "2020",
@@ -240,7 +276,11 @@ const MNP_PROJECTS = [
     location: "Harvest City, Jawa Barat",
     client: "PT. Dwigunatama Rintisprima (Harvest City)",
     scopeOfWorks: "Pembangunan Dinding Pagar & Hardscape Taman",
-    images: []
+    images: [
+      "images/portfolio/theridge/theridge_1.png",
+      "images/portfolio/theridge/theridge_2.png",
+      "images/portfolio/theridge/theridge_4.png",
+    ]
   },
   {
     id: "gedung_kuliah_stp_bandung",
