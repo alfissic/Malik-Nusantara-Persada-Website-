@@ -41,7 +41,7 @@ const MNP_PROJECTS = [
     scopeOfWorks: "Pekerjaan Rangka Atap Mahkota, Atap Kaca, Tower, Rangka Separator Lift, Sirip Bangunan, Tribun dan Stage",
     featured: true,
     images: [
-      "images/portfolio/unair/unair2.jpeg",
+      "images/portfolio/unair/unair_new.png",
       "images/portfolio/unair/unair1.jpeg",
       "images/portfolio/unair/unair3.jpeg",
       "images/portfolio/unair/unair4.jpeg",
