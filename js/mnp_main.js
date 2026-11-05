@@ -222,6 +222,22 @@ const MNP_PROJECTS = [
     images: []
   },
   {
+    id: "terminal3_soekarno_hatta",
+    title: "Proyek Terminal 3 Bandara Soekarno Hatta",
+    year: "2017",
+    category: "commercial",
+    location: "Tangerang, Banten",
+    client: "PT. Nindya Karya",
+    scopeOfWorks: "Pekerjaan Struktur Baja",
+    images: [
+      "images/portfolio/t3/t3soetta4.png",
+      "images/portfolio/t3/t3soetta1.png",
+      "images/portfolio/t3/t3soetta3.png",
+      "images/portfolio/t3/t3soetta2.png",
+      "images/portfolio/t3/t3soetta5.png"
+    ]
+  },
+  {
     id: "pasar_renteng_praya",
     title: "Proyek Pasar Renteng",
     year: "2020",
@@ -349,13 +365,20 @@ const MNP_PROJECTS = [
   },
   {
     id: "cwj02_universitas_jambi",
-    title: "Proyek CWJ-02: Pembangunan 6 Gedung (Ruang Kelas Terpadu A/B/C Mendalo, Lab Terpadu Sosial Sains, Lab Ilmu Teknik, Pusat Kegiatan Mahasiswa) - Aksi-ADB Universitas Jambi",
+    title: "Proyek Pembangunan 6 Gedung (Ruang Kelas Terpadu, Lab Terpadu Sosial Sains, Lab Ilmu Teknik, Pusat Kegiatan Mahasiswa) - Universitas Jambi",
     year: "2023",
     category: "institution",
     location: "Jambi",
     client: "PT. Nindya Karya",
     scopeOfWorks: "Pekerjaan Baja",
-    images: []
+    images: [
+      "images/portfolio/jambi/universitas_jambi1.png",
+      "images/portfolio/jambi/universitas_jambi2.png",
+      "images/portfolio/jambi/universitas_jambi3.png",
+      "images/portfolio/jambi/universitas_jambi4.png",
+      "images/portfolio/jambi/universitas_jambi5.png",
+      "images/portfolio/jambi/universitas_jambi6.png"
+    ]
   },
   {
     id: "politeknik_pariwisata_nhi_bandung",
@@ -375,7 +398,14 @@ const MNP_PROJECTS = [
     location: "Yogyakarta",
     client: "PT. Nindya Karya",
     scopeOfWorks: "Pekerjaan Konstruksi Baja",
-    images: []
+    images: [
+      "images/portfolio/malioboro/grand_inna_malioboro1.png",
+      "images/portfolio/malioboro/grand_inna_malioboro2.png",
+      "images/portfolio/malioboro/grand_inna_malioboro3.png",
+      "images/portfolio/malioboro/grand_inna_malioboro4.png",
+      "images/portfolio/malioboro/grand_inna_malioboro5.png",
+      "images/portfolio/malioboro/grand_inna_malioboro6.png"
+    ]
   },
   {
     id: "kampus_geologi_karangsambung_bayat",
@@ -385,7 +415,13 @@ const MNP_PROJECTS = [
     location: "Jawa Tengah",
     client: "PT. Nindya Karya",
     scopeOfWorks: "Pembangunan Kampus",
-    images: []
+    images: [
+      "images/portfolio/karangsambung_bayat/kampus_geologi1.png",
+      "images/portfolio/karangsambung_bayat/kampus_geologi2.png",
+      "images/portfolio/karangsambung_bayat/kampus_geologi3.png",
+      "images/portfolio/karangsambung_bayat/kampus_geologi4.png",
+      
+    ]
   },
   {
     id: "convention_hall_politeknik_palembang",
@@ -405,7 +441,12 @@ const MNP_PROJECTS = [
     location: "Karawang",
     client: "PT Ciawenindo Mitra Perkasa",
     scopeOfWorks: "Konstruksi Baja (General Contractor)",
-    images: []
+    images: [
+      "images/portfolio/hci/hon_chuan2.png",
+      "images/portfolio/hci/hon_chuan1.png",
+      "images/portfolio/hci/hon_chuan3.png",
+      "images/portfolio/hci/hon_chuan4.png"
+    ]
   },
   {
     id: "rsud_aws_samarinda",
