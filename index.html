@@ -193,69 +193,19 @@
   </div>
 </section>
 
+<!-- ARTICLES (MODIFIED): dirender otomatis oleh js/mnp_articles.js -->
 <section id="articles" class="py-5 py-lg-6">
   <div class="container py-4">
     <div class="row align-items-center mb-4">
-      <div class="col-lg-7">    
-        <h2 class="fw-bold text-brand3 reveal-up">News & Insight</h2>
+      <div class="col-lg-7">
+        <h2 class="fw-bold text-brand3 reveal-up">News &amp; Insight</h2>
       </div>
       <div class="col-lg-5 text-center text-lg-end mt-3 mt-lg-0">
         <a href="mnp_articles.html" class="btn btn-outline-brand px-4">More</a>
       </div>
     </div>
 
-    <div class="row g-4">
-      <div class="col-md-6 col-lg-4">
-        <a href="#" class="article-card-link">
-          <article class="article-card reveal-up">
-            <div class="article-thumb">
-              <img src="images/portfolio/solo_malang/rsau_solomalang1.png" alt="Judul artikel 1" loading="lazy">
-              <span class="article-tag">Konstruksi</span>
-            </div>
-            <div class="article-body">
-              <span class="article-date"><i class="bi bi-calendar3"></i> 10 Oktober 2026</span>
-              <h6>Judul Artikel Pertama Tentang Konstruksi</h6>
-              <p>Ringkasan singkat artikel, dua sampai tiga kalimat yang menjelaskan isi tulisan.</p>
-              <span class="article-more">Baca selengkapnya <i class="bi bi-arrow-right"></i></span>
-            </div>
-          </article>
-        </a>
-      </div>
-
-      <div class="col-md-6 col-lg-4">
-        <a href="#" class="article-card-link">
-          <article class="article-card reveal-up reveal-delay-1">
-            <div class="article-thumb">
-              <img src="images/portfolio/gresik/mgi_gresik3.png" alt="Judul artikel 2" loading="lazy">
-              <span class="article-tag">Struktur Baja</span>
-            </div>
-            <div class="article-body">
-              <span class="article-date"><i class="bi bi-calendar3"></i> 28 September 2026</span>
-              <h6>Judul Artikel Kedua Tentang Struktur Baja</h6>
-              <p>Ringkasan singkat artikel, dua sampai tiga kalimat yang menjelaskan isi tulisan.</p>
-              <span class="article-more">Baca selengkapnya <i class="bi bi-arrow-right"></i></span>
-            </div>
-          </article>
-        </a>
-      </div>
-
-      <div class="col-md-6 col-lg-4">
-        <a href="#" class="article-card-link">
-          <article class="article-card reveal-up reveal-delay-2">
-            <div class="article-thumb">
-              <img src="images/portfolio/madura/restareamadura3.png" alt="Judul artikel 3" loading="lazy">
-              <span class="article-tag">Infrastruktur</span>
-            </div>
-            <div class="article-body">
-              <span class="article-date"><i class="bi bi-calendar3"></i> 15 September 2026</span>
-              <h6>Judul Artikel Ketiga Tentang Infrastruktur</h6>
-              <p>Ringkasan singkat artikel, dua sampai tiga kalimat yang menjelaskan isi tulisan.</p>
-              <span class="article-more">Baca selengkapnya <i class="bi bi-arrow-right"></i></span>
-            </div>
-          </article>
-        </a>
-      </div>
-    </div>
+    <div class="row g-4" id="homeArticlesGrid"></div>
   </div>
 </section>
 
@@ -345,7 +295,6 @@
   </path>
   <path d="M510.5 42.2L510 42.9L509.2 42.9L505.6 41.5L508.2 41.2L510.5 42.2zM442.3 36.9L443.7 38.7L444.8 42.2L444.9 43L444.7 43.6L444.8 46.1L445.1 46.5L446.3 47.4L446.4 48.5L446.1 48.6L443.6 48L441.3 47.2L440.5 43.4L440 42L439.8 39.5L440 38.7L440.6 38.9L441.8 38L442.3 36.9zM439.8 37.2L439.3 38.2L438.3 38.8L436.5 39L435.2 40.2L435.1 40.7L436.2 46.3L436.6 46.6L436.7 48L435.5 52L434.1 53.5L432.7 54.4L432 54.4L431.7 53.7L430.3 52.1L427.4 49.7L426.1 48.3L425.8 46.3L424.1 43.9L421.9 43.1L423.2 43.1L423.6 43.3L425.5 43L429.9 41.1L430.4 40.8L432.8 38.3L434.2 37.3L437.7 35.1L440.2 34.1L440.7 34L441.4 34.2L439.2 36.9L439.8 37.2z" id="BN">
   </path>
-
         </g>
       </svg>
       <div class="map-pin map-pin-photo" style="left:39.8%; top:79.3%;" tabindex="0">
@@ -407,8 +356,8 @@
       <div class="map-pin map-pin-dot" style="left:17.3%; top:33.7%;" title="Riau, Sumatera"></div>
       <div class="map-pin map-pin-dot" style="left:15.2%; top:41.5%;" title="Sumatera Barat"></div>
       <div class="map-pin map-pin-dot" style="left:23.8%; top:52.6%;" title="Sumatera Selatan"></div>
-      <div class="map-pin map-pin-dot" style="left:27.9%; top:69.9%;" title="Jakarta & Jawa Barat"></div>
-      <div class="map-pin map-pin-dot" style="left:35.0%; top:76.3%;" title="Jawa Tengah & DIY"></div>
+      <div class="map-pin map-pin-dot" style="left:27.9%; top:69.9%;" title="Jakarta &amp; Jawa Barat"></div>
+      <div class="map-pin map-pin-dot" style="left:35.0%; top:76.3%;" title="Jawa Tengah &amp; DIY"></div>
       <div class="map-pin map-pin-dot" style="left:44.5%; top:83.1%;" title="Bali"></div>
       <div class="map-pin map-pin-dot" style="left:46.3%; top:82.7%;" title="Nusa Tenggara Barat"></div>
       <div class="map-pin map-pin-dot" style="left:52.8%; top:64.2%;" title="Sulawesi Selatan"></div>
@@ -433,7 +382,7 @@
       <div class="logo-placeholder"><img src="images/icon/nindyakarya.png" alt="Client 1"></div>
       <div class="logo-placeholder"><img src="images/icon/adhikarya.png" alt="Client 2"></div>
       <div class="logo-placeholder"><img src="images/icon/abipraya.png" alt="Client 3"></div>
-       <div class="logo-placeholder"><img src="images/icon/hutamakarya.png" alt="Hutama Karya"></div>
+      <div class="logo-placeholder"><img src="images/icon/hutamakarya.png" alt="Hutama Karya"></div>
       <div class="logo-placeholder"><img src="images/icon/waskita.png" alt="Waskita"></div>
       <div class="logo-placeholder"><img src="images/icon/decorient.jpeg" alt="Decorient"></div>
       <div class="logo-placeholder"><img src="images/icon/takenaka.png" alt="Takenaka"></div>
@@ -505,6 +454,7 @@
 
 <a href="mailto:info@maliknusantara.co.id" class="email-fab"><i class="bi bi-envelope"></i></a>
 
+<!-- PROJECT MODAL (MODIFIED): blok lorem ipsum "detail-copy" dihapus, sama seperti mnp_portfolio.html -->
 <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
     <div class="modal-content project-modal-content">
@@ -529,10 +479,6 @@
                 <span class="visually-hidden">Next</span>
               </button>
               <div class="carousel-indicators" id="modalCarouselIndicators"></div>
-            </div>
-
-            <div class="detail-copy">
-              <p>Lorem ipsum dolor sit amet, sint magna in magna do cillum. Dolore dolore incididunt pariatur ut eiusmod veniam sed ut. Non velit incididunt sed pariatur ex sunt nulla labore. Veniam ad excepteur exercitation in anim dolore quis ullamco cupidatat.</p>
             </div>
           </div>
 
@@ -570,7 +516,9 @@
   </div>
 </div>
 
+<!-- SCRIPTS (MODIFIED): mnp_articles.js harus sebelum mnp_main.js -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/mnp_articles.js"></script>
 <script src="js/mnp_main.js"></script>
 </body>
 </html>
