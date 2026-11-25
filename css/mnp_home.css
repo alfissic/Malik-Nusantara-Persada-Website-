@@ -827,11 +827,12 @@ section[id], header[id], footer[id]{
   display:flex;
   align-items:center;
   width: max-content;
-  animation: logo-scroll 18s linear infinite;
+  animation: logo-scroll 36s linear infinite;
+  will-change: transform;
 }
 @keyframes logo-scroll{
   from{ transform: translateX(0); }
-  to{ transform: translateX(-25%); }
+  to{ transform: translateX(-50%); }
 }
 
 .mnp-footer{
